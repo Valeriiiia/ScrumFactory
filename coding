@@ -1,0 +1,41 @@
+// 1 task
+var MyObject{
+	name: "Dima";
+	age: 34;
+	hair: "Brown";
+}
+
+// task 2
+function MyObject{
+	return MyObject.name;
+}
+
+// task 3
+var arr = [1, 2, 3, 4, 5];
+
+// task 4
+function LoopFunction{
+	alert( arr[0]);
+	alert( arr[1]);
+	alert( arr[2]);
+	alert( arr[3]);
+	alert( arr[4]);
+}
+
+//task 5
+function Numbers{
+	for(var i = 0; i <= 100; i++){
+	if(i % 3 == 0){
+	alert("Fizz")
+}
+    else if(i % 5 == 0){
+    alert("Buzz");
+}
+    else if(i % 3 == 0 || i % 5 == 0){
+    alert("FizzBuzz");
+}
+    else
+	alert(i);
+
+}
+}
